@@ -62,9 +62,9 @@ public class SeatServlet extends HttpServlet {
         AppointmentBiz appointmentBiz = new AppointmentBiz();
         int count = appointmentBiz.addAppointment(userId,seatId,dateId);
         if (count > 0) {
-            out.println("<script>alert('预约成功！');parent.window.location.href='index.jsp';</script>");
+            out.println("<script>alert('Reserve Successfully！');parent.window.location.href='index.jsp';</script>");
         } else {
-            out.println("<script>alert('预约不成功!')</script>");
+            out.println("<script>alert('Reserve unsuccessfully!')</script>");
         }
 
 

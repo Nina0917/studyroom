@@ -3,7 +3,7 @@
 <html >
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="keywords"  content = "图书 java jsp"/>
+    <meta http-equiv="keywords"  content = "reset java jsp"/>
     <meta http-equiv="author" content="phenix"/>
     <link rel="stylesheet" type="text/css" href="./Style/skin.css" />
     <script src="Js/jquery-3.3.1.min.js"></script>
@@ -49,7 +49,7 @@
                                 <table>
                                     <tr>
                                         <td width="100" align="center"><img src="./Images/mime.gif" /></td>
-                                        <td valign="bottom"><h3 style="letter-spacing:1px;">个人管理 > 修改密码</h3></td>
+                                        <td valign="bottom"><h3 style="letter-spacing:1px;">User Center > Reset Password</h3></td>
                                     </tr>
                                 </table>
                             </td>
@@ -73,29 +73,29 @@
                                                 <table width="100%"class="cont">
                                                     <tr>
                                                         <td width="2%">&nbsp;</td>
-                                                        <td width="80px">原密码：</td>
+                                                        <td width="80px">Old Password:</td>
                                                         <td width="150px"><input class="text" type="password" name="pwd" required/></td>
-                                                        <td class="err">*原密码不匹配</td>
+                                                        <td class="err">*Old Password is not correct</td>
                                                         <td width="2%">&nbsp;</td>
                                                     </tr>
                                                     <tr>
                                                         <td width="2%">&nbsp;</td>
-                                                        <td width="80px"> 新密码：</td>
+                                                        <td width="80px"> New Password:</td>
                                                         <td width="150px"><input class="text" type="password" name="newpwd" required /></td>
                                                         <td></td>
                                                         <td width="2%">&nbsp;</td>
                                                     </tr>
                                                     <tr>
                                                         <td width="2%">&nbsp;</td>
-                                                        <td width="80px">确认密码：</td>
+                                                        <td width="80px">Confirm:</td>
                                                         <td width="150px"><input class="text" type="password" id="newpwd2" name="newpwd2" required /></td>
-                                                        <td id="newpwd2_err"class="err">两次密码不相同</td>
+                                                        <td id="newpwd2_err"class="err">new password and confirming password does not match</td>
                                                         <td width="2%">&nbsp;</td>
                                                     </tr>
                                                     <tr>
                                                         <td width="2%">&nbsp;</td>
                                                         <td width="80px"></td>
-                                                        <td width="150px"><input class="btn" type="submit" value="提交" /></td>
+                                                        <td width="150px"><input class="btn" type="submit" value="submit" /></td>
                                                         <td ></td>
                                                         <td width="2%">&nbsp;</td>
                                                         
@@ -119,7 +119,7 @@
                         <tr>
                             <td width="2%">&nbsp;</td>
                             <td width="51%" class="left_txt">
-                                <img src="./Images/icon_mail.gif" width="16" height="11"> 客户服务邮箱：2087924818@qq.com<br />
+                                <img src="./Images/icon_mail.gif" width="16" height="11"> technical mail：ma1998.ascii@gmail.com<br />
                             </td>
                             <td>&nbsp;</td><td>&nbsp;</td>
                         </tr>

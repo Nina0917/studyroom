@@ -1,18 +1,18 @@
 package com.mandian.study.action;
 
-import com.mandian.study.bean.Appointment;
-import com.mandian.study.bean.User;
-import com.mandian.study.biz.AppointmentBiz;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
+import javax.servlet.*;
+import com.mandian.study.bean.*;
+import com.mandian.study.biz.AppointmentBiz;
 
 @WebServlet("/appointment.let")
 // appointment.let?type=getAll 获取当前用户所有未使用的预约

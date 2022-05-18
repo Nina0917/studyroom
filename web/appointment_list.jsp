@@ -34,7 +34,7 @@
                                 <table>
                                     <tr>
                                         <td width="100" align="center"><img src="./Images/mime.gif" /></td>
-                                        <td valign="bottom"><h3 style="letter-spacing:1px;"> 个人座位预约 > 未使用预约 </h3></td>
+                                        <td valign="bottom"><h3 style="letter-spacing:1px;"> Personal Appointment > Unused Reservation </h3></td>
                                     </tr>
                                 </table>
                             </td>
@@ -58,10 +58,10 @@
                                                 <table width="60%"  class="cont tr_color">
                                                     <tr>
                                                        
-                                                        <th>预约人</th>
-                                                        <th>座位编号</th>
-                                                        <th>时间日期</th>
-                                                        <th>取消预约</th>
+                                                        <th>User Name</th>
+                                                        <th>Seat Number</th>
+                                                        <th>Date</th>
+                                                        <th>Cancel Reservation</th>
                                                     </tr>
                                                     <c:forEach items="${appointments}" var="app">
                                                         <tr align="center" class="d">
@@ -69,7 +69,7 @@
                                                             <td>${app.seatId}</td>
                                                             <td>${app.date}</td>
                                                             <td>
-                                                                <a onclick="return confirm('确认取消预约');" href="appointment.let?type=cancel&id=${app.id}">取消预约</a>
+                                                                <a onclick="return confirm('Are you sure to cancel?');" href="appointment.let?type=cancel&id=${app.id}">Cancel Reservation</a>
                                                                 <%--<a onclick="return confirm('确认删除');" href="type.let?type=remove&id=${t.id}">删除</a>--%>
                                                             </td>
                                                         </tr>
@@ -92,7 +92,7 @@
                         <tr>
                             <td width="2%">&nbsp;</td>
                             <td width="51%" class="left_txt">
-                                <img src="./Images/icon_mail.gif" width="16" height="11"> 客户服务邮箱：2087924818@qq.com<br />
+                                <img src="./Images/icon_mail.gif" width="16" height="11"> Technical problem mail: ma1998.ascii@gmail.com<br />
                             </td>
                             <td>&nbsp;</td><td>&nbsp;</td>
                         </tr>

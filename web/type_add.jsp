@@ -4,7 +4,7 @@
 <html >
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="keywords"  content = "图书 java jsp"/>
+    <meta http-equiv="keywords"  content = "studyroom java jsp"/>
     <meta http-equiv="author" content="phenix"/>
     <link rel="stylesheet" type="text/css" href="./Style/skin.css" />
 </head>

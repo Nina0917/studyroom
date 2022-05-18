@@ -9,12 +9,12 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html >
 <head>
-  <title>满点自习室 - 用户预约系统</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>The Study Room - User Reservation System</title>
+  <%--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="description" content="自习室预约系统" />
   <meta name="keywords" content="自习室,网站管理系统,企业网站" />
   <meta name="Author" content="phenix" />
-  <meta name="CopyRight" content="满点自习室" />
+  <meta name="CopyRight" content="满点自习室" />--%>
 </head>
 <frameset rows="64,*"  frameborder="no" border="0" framespacing="0">
   <!--头部-->
@@ -26,4 +26,5 @@
     <!--主体右部分-->
     <frame src="main.jsp" name="main" frameborder="0" scrolling="auto" marginwidth="0" marginheight="0" />
   </frameset>
+</frameset>>
 </html>

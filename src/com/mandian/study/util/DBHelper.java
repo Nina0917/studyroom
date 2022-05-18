@@ -147,6 +147,7 @@ public class DBHelper {
 		//测试数据库的连接情况
         try {
             Connection connection = DBHelper.getConnection();
+            System.out.println("connected!");
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }

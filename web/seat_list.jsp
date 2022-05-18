@@ -34,7 +34,7 @@
                                 <table>
                                     <tr>
                                         <td width="100" align="center"><img src="./Images/mime.gif" /></td>
-                                        <td valign="bottom"><h3 style="letter-spacing:1px;"> 个人座位预约 > 现在预约 </h3></td>
+                                        <td valign="bottom"><h3 style="letter-spacing:1px;"> Reserve Seats > Reserve Now </h3></td>
                                     </tr>
                                 </table>
                             </td>
@@ -58,10 +58,10 @@
                                                 <table width="60%"  class="cont tr_color">
                                                     <tr>
                                                        
-                                                        <th>座位编号</th>
-                                                        <th>所在房间</th>
-                                                        <th>预约状态</th>
-                                                        <th>操作</th>
+                                                        <th>Seat Number</th>
+                                                        <th>Room Number</th>
+                                                        <th>Status</th>
+                                                        <th>Operation</th>
                                                     </tr>
                                                     <c:forEach items="${seats}" var="s">
                                                         <tr align="center" class="d">
@@ -69,7 +69,7 @@
                                                             <td>${s.roomId}</td>
                                                             <td>${s.status.name}</td>
                                                             <td>
-                                                                <a onclick="return confirm('确认预约');" href="seat.let?seatId=${s.id}">预约</a>
+                                                                <a onclick="return confirm('Are you sure to reservate this seat?');" href="seat.let?seatId=${s.id}">Reserve</a>
                                                                 <%--<a onclick="return confirm('确认删除');" href="type.let?type=remove&id=${t.id}">删除</a>--%>
                                                             </td>
                                                         </tr>
@@ -92,7 +92,7 @@
                         <tr>
                             <td width="2%">&nbsp;</td>
                             <td width="51%" class="left_txt">
-                                <img src="./Images/icon_mail.gif" width="16" height="11"> 客户服务邮箱：2087924818@qq.com<br />
+                                <img src="./Images/icon_mail.gif" width="16" height="11"> technical mail：ma1998.ascii@gmail.com<br />
                             </td>
                             <td>&nbsp;</td><td>&nbsp;</td>
                         </tr>

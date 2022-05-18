@@ -51,7 +51,7 @@ public class UserServlet extends HttpServlet {
                 } else {
                     //非空，表示用户存在，登录成功，将用户对象保存在session中，提示登录成功后，将页面跳转到index.jsp
                     session.setAttribute("user", user);
-                    out.println("<script>alert('登录成功');location.href='index.jsp';</script>");
+                    out.println("<script>alert('Login successfully!');location.href='index.jsp';</script>");
                 }
 
                 break;

@@ -4,7 +4,7 @@
 <html >
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="keywords"  content = "预约 java jsp"/>
+    <meta http-equiv="keywords"  content = "reservation java jsp"/>
     <meta http-equiv="author" content="phenix"/>
     <link rel="stylesheet" type="text/css" href="./Style/skin.css" />
 </head>
@@ -34,7 +34,7 @@
                                 <table>
                                     <tr>
                                         <td width="100" align="center"><img src="./Images/mime.gif" /></td>
-                                        <td valign="bottom"><h3 style="letter-spacing:1px;">个人用户预约 >  预约座位 </h3></td>
+                                        <td valign="bottom"><h3 style="letter-spacing:1px;">Reserve Seats >  Available Seats </h3></td>
                                     </tr>
                                 </table>
                             </td>
@@ -58,7 +58,7 @@
                                                 <table width="40%" class="cont">
                                                     <tr>
                                                         <td width="2%">&nbsp;</td>
-                                                        <td width="25%">座位编号：</td>
+                                                        <td width="25%">seat number</td>
                                                         <td width="40%"><input type="text" id="seatId" class="text" readonly="readonly" name="seatId"  value="${seat.id}" />
                                                             <input type="hidden"  class="text"  name="typeId"  value="${type.id}"  />
                                                         </td>
@@ -67,18 +67,18 @@
                                                     </tr>
                                                     <tr>
                                                         <td width="2%">&nbsp;</td>
-                                                        <td width="25%">所在房间：</td>
+                                                        <td width="25%">room</td>
                                                         <td width="40%"><input type="text" id="roomId" class="text"  name="roomId" value="${seat.roomId}" disabled/></td>
                                                         <td class="err">*类型已存在</td>
                                                         <td width="2%">&nbsp;</td>
                                                     </tr>
                                                     <tr>
                                                         <td>&nbsp;</td>
-                                                        <td>可预约时段：</td>
+                                                        <td>available time：</td>
                                                         <td>
                                                             <select id="dates" name="date" >
                                                                 <c:if test="${seat.statusId==0}">
-                                                                    <option value="0" selected>无可用时间段</option>
+                                                                    <option value="0" selected>no available time slot</option>
                                                                 </c:if>
                                                                 <c:if test="${seat.statusId!=0}">
 
@@ -99,7 +99,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td>&nbsp;</td>
-                                                        <td colspan="3"><input class="btn" type="submit" value="提交" /></td>
+                                                        <td colspan="3"><input class="btn" type="submit" value="submit" /></td>
                                                         <td>&nbsp;</td>
                                                     </tr>
                                                 </table>
@@ -121,7 +121,7 @@
                         <tr>
                             <td width="2%">&nbsp;</td>
                             <td width="51%" class="left_txt">
-                                <img src="./Images/icon_mail.gif" width="16" height="11"> 客户服务邮箱：2087924818@qq.com<br />
+                                <img src="./Images/icon_mail.gif" width="16" height="11"> technical mail：ma1998.ascii@gmail.com<br />
                             </td>
                             <td>&nbsp;</td><td>&nbsp;</td>
                         </tr>

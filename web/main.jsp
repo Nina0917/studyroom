@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="keywords"  content = "图书 java jsp"/>
+    <meta http-equiv="keywords"  content = "studyroom java jsp"/>
     <meta http-equiv="author" content="phenix"/>
     <link rel="stylesheet" type="text/css" href="./Style/skin.css" />
 </head>
@@ -35,7 +35,7 @@
                         <tr>
                             <!--左边内容-->
                             <td colspan="2" valign="top">
-                                <marquee><h3 style="margin:20px 0 10px 10px;">感谢您光临满点自习室</h3>  </marquee>
+                                <marquee><h3 style="margin:20px 0 10px 10px;">Welcome to the study room!</h3>  </marquee>
                             </td>
                         </tr>
          
@@ -74,7 +74,7 @@
                         <tr>
                             <td width="2%">&nbsp;</td>
                             <td width="51%" class="left_txt">
-                                <img src="./Images/icon_mail.gif" width="16" height="11"> 官方微信号：Nina19980917<br />
+                                <img src="./Images/icon_mail.gif" width="16" height="11"> technical mail：ma1998.ascii@gmail.com<br />
                                
                             </td>
                             <td>&nbsp;</td><td>&nbsp;</td>

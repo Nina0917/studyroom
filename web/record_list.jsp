@@ -34,7 +34,7 @@
                                 <table>
                                     <tr>
                                         <td width="100" align="center"><img src="./Images/mime.gif" /></td>
-                                        <td valign="bottom"><h3 style="letter-spacing:1px;"> 预约记录 > 已过期预约 </h3></td>
+                                        <td valign="bottom"><h3 style="letter-spacing:1px;"> Record > past reservation </h3></td>
                                     </tr>
                                 </table>
                             </td>
@@ -58,10 +58,10 @@
                                                 <table width="60%"  class="cont tr_color">
                                                     <tr>
                                                        
-                                                        <th>记录编号</th>
-                                                        <th>预约人</th>
-                                                        <th>座位编号</th>
-                                                        <th>时间日期</th>
+                                                        <th>Record ID</th>
+                                                        <th>User</th>
+                                                        <th>Seat Number</th>
+                                                        <th>Date</th>
                                                     </tr>
                                                     <c:forEach items="${records}" var="r">
                                                         <tr align="center" class="d">
@@ -93,7 +93,7 @@
                         <tr>
                             <td width="2%">&nbsp;</td>
                             <td width="51%" class="left_txt">
-                                <img src="./Images/icon_mail.gif" width="16" height="11"> 客户服务邮箱：2087924818@qq.com<br />
+                                <img src="./Images/icon_mail.gif" width="16" height="11"> technical mail：ma1998.ascii@gmail.com<br />
                             </td>
                             <td>&nbsp;</td><td>&nbsp;</td>
                         </tr>
